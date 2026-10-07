@@ -7,22 +7,23 @@ print(f"Seja Bem-vindo {nome}")
 #laço de repetição
 while True:
     print("\nChatBot Selecione uma opção: ")
-    print("1 - Piadas")
-    print("2 - Frase do dia")
-    print("3 - Adivinha")
-    print("4 - Sair")
+    print("1 - Fiscal")
+    print("2 - Pessoal")
+    print("3 - Contábil")
+    print("4 - Suporte")
+    print("5 - Sair")
 
     opcao = input().strip() #tirar espaços
 
     if opcao == "1": #quando usar o input pegamos uma informação, o usuário sempre retorna com texto, por isso as aspas
-        piadas = ["vcaaaaaaaaaaaaaaaaaa", "slaaaaaaaaa", "aquiaaaaaaa"]
-        print(random.choice(piadas))
+        fiscal = 
+        print(piadas)
     elif opcao == "2":
-        frases = ["faaaaaaaa", "caaaaaaaaa", "baaaaaaaaaa"]
-        print(random.choice(frases))
+        pessoal = 
+        print(frases)
     elif opcao == "3":
-        adivinha = ["saaaaaa", "haaaaaaa", "yaaaaaaaaa"]
-        print(random.choice(adivinha))
+        contabil = 
+        print(adivinha)
     elif opcao == "4":
         print(f"Até mais {nome} (tchau)")
         break #break serve para quebrar o laço de repetição, se caso não colocasse ele aqui iria repetir o print das seleções de opções
